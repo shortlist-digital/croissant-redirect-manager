@@ -1,5 +1,5 @@
 {
-  "name": "shortlist-digital/croissant-api",
+  "name": "shortlist-digital/croissant-redirect-manager",
   "description": "Custom APIs endpoints for croissant-heavy",
   "type": "wordpress-muplugin",
   "require": {
