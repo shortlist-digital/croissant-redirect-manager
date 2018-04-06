@@ -1,0 +1,20 @@
+{
+  "name": "shortlist-digital/croissant-api",
+  "description": "Custom APIs endpoints for croissant-heavy",
+  "type": "wordpress-muplugin",
+  "require": {
+    "composer/installers": "@stable",
+    "php-di/php-di": "5.4.3"
+  },
+  "require-dev": {
+    "brain/monkey": "2.2.0",
+    "phpunit/phpunit": "~5.7.9",
+    "mockery/mockery": "~1.0",
+    "shortlist-digital/wp-tapestry-plugin": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "CroissantRedirectManager\\": "app/"
+    }
+  }
+}
